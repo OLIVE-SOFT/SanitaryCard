@@ -1,0 +1,27 @@
+entity TravelerHealthCard {
+	firstName String 
+	lastName String 
+	email String  
+	phoneNumber String  
+	dateOfBirth LocalDate 
+	streetAddress String 
+	city String 
+	postalCode String 
+	flightNumber String
+	planeSeatNumber String
+	airlineCompany String
+	temperatureMonitoring Double
+	bodyTemperature Integer
+	arrivalDate LocalDate 
+	arrivalTime ZonedDateTime
+	firstStopovercountry String 
+	secondStopovercountry String 
+	thirdStopovercountry String 
+	firstDeparturedateCountry LocalDate
+	secondDeparturedateCountry LocalDate
+	thirdDeparturedateCountry LocalDate
+	firstDurationOfstayCountry Duration
+	secondDurationOfstayCountry Duration
+	thirdDurationOfstayCountry Duration
+}
+

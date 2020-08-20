@@ -1,0 +1,45 @@
+{
+  "jhipsterApp": {
+    "travelerhealthcard": {
+      "home": {
+        "title": "TravelerHealthCard",
+        "createLabel": "Create a new Travelerhealthcard",
+        "createOrEditLabel": "Create or edit a Travelerhealthcard",
+        "notFound": "No Travelerhealthcards found"
+      },
+      "created": "A new Travelerhealthcard is created with identifier {{ param }}",
+      "updated": "A Travelerhealthcard is updated with identifier {{ param }}",
+      "deleted": "A Travelerhealthcard is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Travelerhealthcard {{ id }}?"
+      },
+      "detail": {
+        "title": "Travelerhealthcard"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "dateOfBirth": "Date Of Birth",
+      "streetAddress": "Street Address",
+      "city": "City",
+      "postalCode": "Postal Code",
+      "flightNumber": "Flight Number",
+      "planeSeatNumber": "Plane Seat Number",
+      "airlineCompany": "Airline Company",
+      "temperatureMonitoring": "Temperature Monitoring",
+      "bodyTemperature": "Body Temperature",
+      "arrivalDate": "Arrival Date",
+      "arrivalTime": "Arrival Time",
+      "firstStopovercountry": "First Stopovercountry",
+      "secondStopovercountry": "Second Stopovercountry",
+      "thirdStopovercountry": "Third Stopovercountry",
+      "firstDeparturedateCountry": "First Departuredate Country",
+      "secondDeparturedateCountry": "Second Departuredate Country",
+      "thirdDeparturedateCountry": "Third Departuredate Country",
+      "firstDurationOfstayCountry": "First Duration Ofstay Country",
+      "secondDurationOfstayCountry": "Second Duration Ofstay Country",
+      "thirdDurationOfstayCountry": "Third Duration Ofstay Country"
+    }
+  }
+}

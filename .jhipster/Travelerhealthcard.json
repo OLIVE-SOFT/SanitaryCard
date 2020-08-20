@@ -1,0 +1,113 @@
+{
+  "name": "Travelerhealthcard",
+  "fields": [
+    {
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateOfBirth",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "streetAddress",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "city",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postalCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "flightNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "planeSeatNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "airlineCompany",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "temperatureMonitoring",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "bodyTemperature",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "arrivalDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "arrivalTime",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "firstStopovercountry",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "secondStopovercountry",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "thirdStopovercountry",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "firstDeparturedateCountry",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "secondDeparturedateCountry",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "thirdDeparturedateCountry",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "firstDurationOfstayCountry",
+      "fieldType": "Duration"
+    },
+    {
+      "fieldName": "secondDurationOfstayCountry",
+      "fieldType": "Duration"
+    },
+    {
+      "fieldName": "thirdDurationOfstayCountry",
+      "fieldType": "Duration"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20200811212744",
+  "entityTableName": "travelerhealthcard",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
