@@ -4,6 +4,7 @@ import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import javax.persistence.*;
+import javax.validation.constraints.Size;
 
 import java.io.Serializable;
 import java.time.LocalDate;
@@ -23,35 +24,35 @@ public class Travelerhealthcard implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @Column(name = "first_name")
+    @Size(min = 1, max = 200)
+    @Column(name = "first_name", nullable = false)
     private String firstName;
-
-    @Column(name = "last_name")
+    @Size(min = 1, max = 200)
+    @Column(name = "last_name",unique = true, nullable = false)
     private String lastName;
-
-    @Column(name = "email")
+    @Size(min = 5, max = 200)
+    @Column(name = "email", nullable = false)
     private String email;
-
-    @Column(name = "phone_number")
+    @Size(min =1 , max = 15)
+    @Column(name = "phone_number", nullable = false)
     private String phoneNumber;
 
-    @Column(name = "date_of_birth")
+    @Column(name = "date_of_birth", nullable = false)
     private LocalDate dateOfBirth;
 
-    @Column(name = "street_address")
+    @Column(name = "street_address", nullable = false)
     private String streetAddress;
 
-    @Column(name = "city")
+    @Column(name = "city", nullable = false)
     private String city;
 
-    @Column(name = "postal_code")
+    @Column(name = "postal_code", nullable = false)
     private String postalCode;
-
-    @Column(name = "flight_number")
+    @Size(min =3 , max = 6)
+    @Column(name = "flight_number", nullable = false)
     private String flightNumber;
-
-    @Column(name = "plane_seat_number")
+    @Size(min =3 , max = 3)
+    @Column(name = "plane_seat_number", nullable = false)
     private String planeSeatNumber;
 
     @Column(name = "airline_company")

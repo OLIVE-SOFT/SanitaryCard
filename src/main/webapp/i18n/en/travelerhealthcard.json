@@ -2,9 +2,9 @@
   "jhipsterApp": {
     "travelerhealthcard": {
       "home": {
-        "title": "TravelerHealthCard",
+        "title": "Traveler Health Card",
         "createLabel": "Create a new Travelerhealthcard",
-        "createOrEditLabel": "Create or edit a Travelerhealthcard",
+        "createOrEditLabel": "Traveler Health Card",
         "notFound": "No Travelerhealthcards found"
       },
       "created": "A new Travelerhealthcard is created with identifier {{ param }}",
@@ -28,6 +28,8 @@
       "planeSeatNumber": "Plane Seat Number",
       "airlineCompany": "Airline Company",
       "temperatureMonitoring": "Temperature Monitoring",
+      "temperatureMonitoring.yes": "yes",
+      "temperatureMonitoring.no": "no",
       "bodyTemperature": "Body Temperature",
       "arrivalDate": "Arrival Date",
       "arrivalTime": "Arrival Time",

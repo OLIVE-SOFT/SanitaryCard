@@ -7,9 +7,10 @@
     "messages": {
       "validate": {
         "login": {
-          "required": "Your username is required.",
-          "minlength": "Your username is required to be at least 1 character.",
-          "maxlength": "Your username cannot be longer than 50 characters.",
+          "required": "this field is required.",
+          "requiredfield": "Your last name is required.",
+          "minlength": "This field is required to be at least 1 character.",
+          "maxlength": "this field cannot be longer than 200 characters.",
           "pattern": "Your username is invalid."
         }
       },

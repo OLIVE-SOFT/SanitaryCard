@@ -6,6 +6,7 @@
       "firstname.placeholder": "Your first name",
       "lastname": "Last Name",
       "lastname.placeholder": "Your last name",
+      "phonenumber.placeholder": "Your phone number ",
       "language": "Language",
       "button": "Save"
     },
