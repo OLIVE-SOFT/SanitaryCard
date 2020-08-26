@@ -48,10 +48,9 @@ public class Travelerhealthcard implements Serializable {
 
     @Column(name = "postal_code", nullable = false)
     private String postalCode;
-    @Size(min =3 , max = 6)
-    @Column(name = "flight_number", nullable = false)
+       @Column(name = "flight_number", nullable = false)
     private String flightNumber;
-    @Size(min =3 , max = 3)
+   
     @Column(name = "plane_seat_number", nullable = false)
     private String planeSeatNumber;
 
