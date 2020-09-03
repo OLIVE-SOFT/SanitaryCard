@@ -60,7 +60,7 @@ export const TravelerhealthcardUpdate = (props: ITravelerhealthcardUpdateProps) 
 			<Row className="justify-content-center">
 				<Col md="8">
 					<h2 id="jhipsterApp.travelerhealthcard.home.createOrEditLabel">
-						<Translate contentKey="jhipsterApp.travelerhealthcard.home.createOrEditLabel"> Traveler health card</Translate>
+						<Translate contentKey="jhipsterApp.travelerhealthcard.home.createOrEditLabel"> a new traveller </Translate>
 					</h2>
 				</Col>
 			</Row>
