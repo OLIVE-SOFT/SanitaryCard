@@ -3,8 +3,8 @@
     "travelerhealthcard": {
       "home": {
         "title": "Travelerhealthcards",
-        "createLabel": "Create a new Travelerhealthcard",
-        "createOrEditLabel": "Create a new Travelerhealthcard",
+        "createLabel": "Create Travelerhealthcard",
+        "createOrEditLabel": "Create Travelerhealthcard",
         "notFound": "No Travelerhealthcards found"
       },
       "created": "A new Travelerhealthcard is created with identifier {{ param }}",
