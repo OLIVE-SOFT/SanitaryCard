@@ -1,0 +1,24 @@
+{
+  "sanitaryCardApp": {
+    "creatnew": {
+      "home": {
+        "title": "Creatnews",
+        "createLabel": "Créer un nouveau Creatnew",
+        "createOrEditLabel": "Créer ou éditer un Creatnew",
+        "notFound": "Aucun Creatnew trouvé"
+      },
+      "created": "Un nouveau Creatnew a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Creatnew avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Creatnew avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Creatnew {{ id }} ?"
+      },
+      "detail": {
+        "title": "Creatnew"
+      },
+      "arilinename": "Arilinename",
+      "flightnumber": "Flightnumber",
+      "travler": "Travler"
+    }
+  }
+}

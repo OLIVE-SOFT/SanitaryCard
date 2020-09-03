@@ -24,4 +24,14 @@ entity TravelerHealthCard {
 	secondDurationOfstayCountry Duration
 	thirdDurationOfstayCountry Duration
 }
-
+entity AirlineCompany {
+  name String
+  iata String
+  icao String
+  callsign String
+  country String
+  alid Integer
+  uid Integer
+  alias String
+  mode String
+  active String}

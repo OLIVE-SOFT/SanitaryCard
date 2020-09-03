@@ -153,45 +153,55 @@ export const TravelerhealthcardUpdate = (props: ITravelerhealthcardUpdateProps) 
 									<AvField id="travelerhealthcard-dateOfBirth" type="date" className="form-control" name="dateOfBirth" validate={{
 											required: { value: true, errorMessage: translate('register.messages.validate.login.required') }, }}/>
 								</AvGroup>
+								<Row>
+									<Col xs="15" sm="5">
 								<AvGroup>
 									<Label id="streetAddressLabel" for="travelerhealthcard-streetAddress">
 										<Translate contentKey="jhipsterApp.travelerhealthcard.streetAddress">Street Address</Translate>
 									</Label>
+							
 									<AvField id="travelerhealthcard-streetAddress" type="text" name="streetAddress"
 										validate={{
 											required: { value: true, errorMessage: translate('register.messages.validate.login.required') },}} />
+											
 								</AvGroup>
+								</Col>
 								<AvGroup>
+								 <Col xs="15" sm="10">
 									<Label id="cityLabel" for="travelerhealthcard-city">
 										<Translate contentKey="jhipsterApp.travelerhealthcard.city">City</Translate>
 									</Label>
+									            
+ 
 									<AvField id="travelerhealthcard-city" type="text" name="city" 
 									validate={{
 											required: { value: true, errorMessage: translate('register.messages.validate.login.required') },}}	 />
-								</AvGroup>
+								            </Col >
+ </AvGroup>
 								<AvGroup>
+								 <Col xs="12" sm="8">
 									<Label id="postalCodeLabel" for="travelerhealthcard-postalCode">
 										<Translate contentKey="jhipsterApp.travelerhealthcard.postalCode">Postal Code</Translate>
 									</Label>
+								
+ 
 									<AvField id="travelerhealthcard-postalCode" type="text" name="postalCode" 	validate={{
 											required: { value: true, errorMessage: translate('register.messages.validate.login.required') },
 											pattern: {
-												value: '^([0-9]{2}|(2A)|2B)[[0-9]{3}',
+												value: '^([0-9]{2}|(2A)|2B)[[0-9]{2}',
 												errorMessage: translate('register.messages.validate.login.pattern'),
 											}, }}  />
+											</Col >
+ 
 								</AvGroup>
+								</Row>
 								<AvGroup>
 									<Label id="flightNumberLabel" for="travelerhealthcard-flightNumber">
 										<Translate contentKey="jhipsterApp.travelerhealthcard.flightNumber">Flight Number</Translate>
 									</Label>
 									<AvField id="travelerhealthcard-flightNumber" type="text" name="flightNumber" 			validate={{
 											required: { value: true, errorMessage: translate('register.messages.validate.login.required') },
-											pattern: {
-												value: '/^[A-Za-z0-9]{3,}$/',
-												errorMessage: translate('register.messages.validate.login.pattern'),
-											},
-											minLength: { value: 3, errorMessage: translate('register.messages.validate.login.minlength') },
-											maxLength: { value: 6, errorMessage: translate('register.messages.validate.login.maxlength') },
+											
 										}}	 />
 								</AvGroup>
 								<AvGroup>
@@ -209,41 +219,25 @@ export const TravelerhealthcardUpdate = (props: ITravelerhealthcardUpdateProps) 
 											maxLength: { value: 3, errorMessage: translate('register.messages.validate.login.maxlength') },
 										}}	 />
 								</AvGroup>
-								<AvGroup>
-								<div>
-									<Label id="temperatureMonitoringLabel" for="travelerhealthcard-temperatureMonitoring">
-										<Translate contentKey="jhipsterApp.travelerhealthcard.temperatureMonitoring">Temperature Monitoring</Translate>
-									</Label>
-									<div>
-									 <label>
-									<AvField
-										id="travelerhealthcard-temperatureMonitoring"
-										type="radio"
-										  value="YES"
-										component="input"
-										name="temperatureMonitoring"
-											validate={{
-											required: { value: true, errorMessage: translate('register.messages.validate.login.required') },}}
-									/>
-								<Translate contentKey="jhipsterApp.travelerhealthcard.temperatureMonitoring.yes">Temperature Monitoring</Translate>
-								
-										<AvField 
-										  name="temperatureMonitoring"
-                                       component="input"
-                                     type="radio"
-                                   value="NO"
-                                     />
-                                        <Translate contentKey="jhipsterApp.travelerhealthcard.temperatureMonitoring.no">Temperature Monitoring</Translate>
- </label>
-</div>
-</div>
-								</AvGroup>
+						
 								
 								<AvGroup>
 									<Label id="bodyTemperatureLabel" for="travelerhealthcard-bodyTemperature">
 										<Translate contentKey="jhipsterApp.travelerhealthcard.bodyTemperature">Body Temperature</Translate>
 									</Label>
-									<AvField id="travelerhealthcard-bodyTemperature" type="string" className="form-control" name="bodyTemperature" />
+									<AvField id="travelerhealthcard-bodyTemperature" type="select" className="form-control" name="bodyTemperature" >
+									<option></option>
+									<option>35</option>
+									<option>36</option>
+									<option>37</option>
+									<option>38</option>
+									<option>39</option>
+									<option>40</option>
+									<option>41</option>
+									<option>42</option>
+									
+									
+									</AvField>
 								</AvGroup>
 								
 								<AvGroup>

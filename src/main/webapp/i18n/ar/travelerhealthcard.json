@@ -1,0 +1,47 @@
+{
+  "jhipsterApp": {
+    "travelerhealthcard": {
+      "home": {
+        "title": "بطاقة المسافر الصحية",
+        "createLabel": "Create a new Travelerhealthcard",
+        "createOrEditLabel": "Traveler Health Card",
+        "notFound": "لم يتم العثور على بطاقات "
+      },
+      "created": "A new Travelerhealthcard is created with identifier {{ param }}",
+      "updated": "A Travelerhealthcard is updated with identifier {{ param }}",
+      "deleted": "A Travelerhealthcard is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Travelerhealthcard {{ id }}?"
+      },
+      "detail": {
+        "title": "البطاقة الصحية للمسافر"
+      },
+      "firstName": "الاسم ",
+      "lastName": "اسم العائلة",
+      "email": "البريد الإلكتروني",
+      "phoneNumber": "رقم الهاتف",
+      "dateOfBirth": "تاريخ الولادة",
+      "streetAddress": "عنوان الشارع",
+      "city": "مدينة",
+      "postalCode": "الكود البريدى",
+      "flightNumber": "رقم الرحلة الجوية",
+      "planeSeatNumber": "رقم مقعد الطائرة",
+      "airlineCompany": "شركة الطيران",
+      "temperatureMonitoring": "مراقبة درجة الحرارة",
+      "temperatureMonitoring.yes": "yes",
+      "temperatureMonitoring.no": "no",
+      "bodyTemperature": "درجة حرارة الجسم",
+      "arrivalDate": "تاريخ الوصول",
+      "arrivalTime": "وقت الوصول",
+      "firstStopovercountry": "أول محطة توقف",
+      "secondStopovercountry": "بلد التوقف الثاني",
+      "thirdStopovercountry": "بلد التوقف الثالث",
+      "firstDeparturedateCountry": "بلد المغادر الأول",
+      "secondDeparturedateCountry": "بلد المغادر الثاني",
+      "thirdDeparturedateCountry": "بلد المغادر الثالث",
+      "firstDurationOfstayCountry": "المدة الأولى للإقا مةفي البلد",
+      "secondDurationOfstayCountry": "المدة الثانية منالبقاء في البلد",
+      "thirdDurationOfstayCountry": "Third Duration Ofstay Country"
+    }
+  }
+}

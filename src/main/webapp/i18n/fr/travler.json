@@ -1,0 +1,23 @@
+{
+  "sanitaryCardApp": {
+    "travler": {
+      "home": {
+        "title": "Travlers",
+        "createLabel": "Créer un nouveau Travler",
+        "createOrEditLabel": "Créer ou éditer un Travler",
+        "notFound": "Aucun Travler trouvé"
+      },
+      "created": "Un nouveau Travler a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Travler avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Travler avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Travler {{ id }} ?"
+      },
+      "detail": {
+        "title": "Travler"
+      },
+      "flightnumber": "Flightnumber",
+      "creatnew": "Creatnew"
+    }
+  }
+}
