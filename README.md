@@ -209,6 +209,6 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 
 
 
-Deploy to Heroku
+## Deploy to Heroku - continuous deployment
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OLIVE-SOFT/SanitaryCard)
