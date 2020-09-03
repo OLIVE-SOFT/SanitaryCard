@@ -80,7 +80,7 @@ export const TravelerhealthcardUpdate = (props: ITravelerhealthcardUpdateProps) 
 								) : null}
 								<AvGroup>
 									<Label id="firstNameLabel" for="travelerhealthcard-firstName">
-										<Translate contentKey="jhipsterApp.travelerhealthcard.firstName">First Name</Translate>
+										<Translate contentKey="jhipsterApp.travelerhealthcard.firstName"></Translate>
 									</Label>
 									<AvField id="travelerhealthcard-firstName" type="text" name="firstName"
 
