@@ -3,8 +3,8 @@
     "travelerhealthcard": {
       "home": {
         "title": "Carte santÃ© des voyageurs",
-        "createLabel": "Creer une nouvelle Travelerhealthcard",
-        "createOrEditLabel": "Carte sante des voyageurs",
+        "createLabel": "CrÃ©Ã©r une nouvelle Travelerhealthcard",
+        "createOrEditLabel": "Carte santÃ© des voyageurs",
         "notFound": "Aucune carte Travelerhealthcards trouvee"
       },
       "created": "A new Travelerhealthcard is created with identifier {{ param }}",
