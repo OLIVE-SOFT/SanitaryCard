@@ -201,6 +201,12 @@ export const TravelerhealthcardUpdate = (props: ITravelerhealthcardUpdateProps) 
 									</Label>
 									<AvField id="travelerhealthcard-flightNumber" type="text" name="flightNumber" 			validate={{
 											required: { value: true, errorMessage: translate('register.messages.validate.login.required') },
+													pattern: {
+												value: '^[a-zA-Z]{2}|[[0-9]+$',
+												errorMessage: translate('register.messages.validate.login.pattern'),
+												minLength: { value: 3, errorMessage: translate('register.messages.validate.login.minlength') },
+											    maxLength: { value:7, errorMessage: translate('register.messages.validate.login.maxlength') },
+											},
 											
 										}}	 />
 								</AvGroup>

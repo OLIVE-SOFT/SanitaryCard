@@ -8,6 +8,7 @@
       "entities": {
         "main": "Entities",
         "travelerhealthcard": "Travelerhealthcard",
+        "airlineCompany": "Airline Company",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

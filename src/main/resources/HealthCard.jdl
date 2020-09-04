@@ -1,4 +1,4 @@
-entity TravelerHealthCard {
+entity Travelerhealthcard {
 	firstName String 
 	lastName String 
 	email String  

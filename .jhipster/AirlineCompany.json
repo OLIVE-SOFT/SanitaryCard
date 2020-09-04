@@ -1,0 +1,57 @@
+{
+  "name": "AirlineCompany",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "iata",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "icao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "callsign",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "country",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "alid",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "uid",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "alias",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "active",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20200903174658",
+  "entityTableName": "airline_company",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

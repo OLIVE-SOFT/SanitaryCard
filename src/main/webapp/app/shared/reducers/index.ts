@@ -16,6 +16,10 @@ import passwordReset, { PasswordResetState } from 'app/modules/account/password-
 import travelerhealthcard, {
   TravelerhealthcardState
 } from 'app/entities/travelerhealthcard/travelerhealthcard.reducer';
+// prettier-ignore
+import airlineCompany, {
+  AirlineCompanyState
+} from 'app/entities/airline-company/airline-company.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
@@ -30,6 +34,7 @@ export interface IRootState {
   readonly password: PasswordState;
   readonly settings: SettingsState;
   readonly travelerhealthcard: TravelerhealthcardState;
+  readonly airlineCompany: AirlineCompanyState;
   /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
@@ -46,6 +51,7 @@ const rootReducer = combineReducers<IRootState>({
   password,
   settings,
   travelerhealthcard,
+  airlineCompany,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar,
 });
