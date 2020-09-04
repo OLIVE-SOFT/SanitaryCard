@@ -2,7 +2,7 @@
   "jhipsterApp": {
     "travelerhealthcard": {
       "home": {
-        "title": "Carte sante des voyageurs",
+        "title": "Carte santÃ© des voyageurs",
         "createLabel": "Creer une nouvelle Travelerhealthcard",
         "createOrEditLabel": "Carte sante des voyageurs",
         "notFound": "Aucune carte Travelerhealthcards trouvee"
@@ -16,16 +16,16 @@
       "detail": {
         "title": "Travelerhealthcard"
       },
-      "firstName": "Prenom",
+      "firstName": "PrÃ©nom",
       "lastName": "Nom",
       "email": "Email",
       "phoneNumber": "Numero de telephone",
       "dateOfBirth": "Date de naissance",
-      "streetAddress": " rue",
+      "streetAddress": " Rue",
       "city": "Ville",
       "postalCode": "code postal",
-      "flightNumber": "Numero de vol",
-      "planeSeatNumber": "Numero de siege d avion",
+      "flightNumber": "NumÃ©ro de vol",
+      "planeSeatNumber": "NumÃ©ro de siege d avion",
       "airlineCompany": "Compagnie aerienne",
       "temperatureMonitoring": "Surveillance de la temperature",
       "temperatureMonitoring.yes": "yes",
@@ -34,14 +34,14 @@
       "arrivalDate": "Date darrivee",
       "arrivalTime": "Heure d arrivee",
       "firstStopovercountry": "Premiere escale dans le pays",
-      "secondStopovercountry": "Deuxieme etape",
-      "thirdStopovercountry": "Troisieme etape",
+      "secondStopovercountry": "Deuxieme Ã©tape",
+      "thirdStopovercountry": "Troisieme Ã©tape",
       "firstDeparturedateCountry": "Pays du premier depart",
       "secondDeparturedateCountry": "Pays du deuxieme depart",
       "thirdDeparturedateCountry": "Pays du troisieme depart",
-      "firstDurationOfstayCountry": "Premiere duree du pays de sejour",
-      "secondDurationOfstayCountry": "Deuxieme duree du pays de sejour",
-      "thirdDurationOfstayCountry": "Troisieme duree du pays de sejour"
+      "firstDurationOfstayCountry": "Premiere duree du pays de sÃ©jour",
+      "secondDurationOfstayCountry": "Deuxieme duree du pays de sÃ©jour",
+      "thirdDurationOfstayCountry": "Troisieme duree du pays de sÃ©jour"
     }
   }
 }
