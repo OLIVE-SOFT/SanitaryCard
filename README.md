@@ -213,7 +213,7 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OLIVE-SOFT/SanitaryCard)
 
-## Work remaining to be done:
+## Remaining work to be done:
 
 For the field "Flight Number" :
 - add the list of airline companies to database 
