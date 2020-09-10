@@ -219,4 +219,5 @@ For the field "Flight Number" :
 - add the list of airline companies to database 
 - verify if the code of airline company in the flight number is identical to one of the codes of the previous list
 
+Convert from HTTP to HTTPS 
 Front End design (eg : add logo of the Ministry of Health)
