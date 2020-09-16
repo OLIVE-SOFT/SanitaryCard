@@ -222,3 +222,5 @@ For the field "Flight Number" :
 Convert from HTTP to HTTPS 
 
 Front End design (eg : add logo of the Ministry of Health)
+
+Add captcha in the form page
